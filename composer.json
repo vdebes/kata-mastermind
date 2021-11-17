@@ -1,0 +1,29 @@
+{
+    "name": "vdebes/kata-mastermind",
+    "description": "Mastermind game kata in PHP.",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.1",
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpmd/phpmd": "^2.11"
+    },
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Vdebes\\KataMastermind\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vdebes",
+            "email": "vdebes@gmail.com"
+        }
+    ]
+}
